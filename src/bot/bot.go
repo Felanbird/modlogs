@@ -169,7 +169,7 @@ var (
 		},
 		{
 			Name:        "delete",
-			Description: "Shows a list of current hooks in this discord.",
+			Description: "Delete the hook for the specified twitch channel.",
 			Options: []*discordgo.ApplicationCommandOption{
 				{
 					Type:        discordgo.ApplicationCommandOptionString,
